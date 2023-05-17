@@ -23,13 +23,13 @@ from transparent_background.utils import *
 warnings.filterwarnings("ignore")
 
 CONFIG = {
-'base':     {'url': "https://drive.google.com/file/d/1CqjQ57ByX5u9rlZA2i8dL0OWtekqcEbq//view?usp=share_link",
+'base':     {'url': "/content/latest.pth",
              'md5': "d692e3dd5fa1b9658949d452bebf1cda",
              'base_size': [1024, 1024],
              'threshold': None,
              'ckpt_name': "ckpt_base.pth",
              'resize': dynamic_resize(L=1280)},
-'fast':     {'url': "https://drive.google.com/file/d/1VYrPHphAQ-GIBEyk86ct5U8Rh1q0R7C-/view?usp=share_link",
+'fast':     {'url': "/content/latest1.pth",
              'md5': "9efdbfbcc49b79ef0f7891c83d2fd52f",
              'base_size': [384, 384],
              'threshold': 512,
